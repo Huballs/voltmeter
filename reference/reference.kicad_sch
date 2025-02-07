@@ -3765,7 +3765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HDSOP-10-1"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 104.14 121.285 0)
 			(effects
 				(font
@@ -4401,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 106.68 110.49 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 213.36 92.71 0)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 46.99 129.54 0)
 			(effects
 				(font
@@ -6241,28 +6241,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc504fe4-0cac-43e9-97a9-c26725f0fd3e")
+			(uuid "fc504fe4-0cac-43e9-97a9-c26725f0fd3f")
 		)
 		(pin "6"
-			(uuid "4e8d6cf1-f10a-4479-87b5-ee7afd9d0489")
+			(uuid "4e8d6cf1-f10a-4479-87b5-ee7afd9d048a")
 		)
 		(pin "1"
-			(uuid "e2f9e650-bedf-4cff-806c-a9be2351e525")
+			(uuid "e2f9e650-bedf-4cff-806c-a9be2351e526")
 		)
 		(pin "3"
-			(uuid "0a0cb209-ca7b-4c84-a54d-9fd65b354a18")
+			(uuid "0a0cb209-ca7b-4c84-a54d-9fd65b354a19")
 		)
 		(pin "8"
-			(uuid "1151da4f-7dd3-4f71-8eb2-fc60a93f90bf")
+			(uuid "1151da4f-7dd3-4f71-8eb2-fc60a93f90c0")
 		)
 		(pin "4"
-			(uuid "b9572d30-0086-4901-ab1d-2712be1ebab7")
+			(uuid "b9572d30-0086-4901-ab1d-2712be1ebab8")
 		)
 		(pin "5"
-			(uuid "d209e087-73c6-43c3-a0bd-28cad660e9f0")
+			(uuid "d209e087-73c6-43c3-a0bd-28cad660e9f1")
 		)
 		(pin "7"
-			(uuid "7ce5955b-11b7-4e72-bf3f-e9250b67b6c4")
+			(uuid "7ce5955b-11b7-4e72-bf3f-e9250b67b6c5")
 		)
 		(instances
 			(project ""
@@ -6596,28 +6596,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc504fe4-0cac-43e9-97a9-c26725f0fd3e")
+			(uuid "fc504fe4-0cac-43e9-97a9-c26725f0fd40")
 		)
 		(pin "6"
-			(uuid "4e8d6cf1-f10a-4479-87b5-ee7afd9d0489")
+			(uuid "4e8d6cf1-f10a-4479-87b5-ee7afd9d048b")
 		)
 		(pin "1"
-			(uuid "e2f9e650-bedf-4cff-806c-a9be2351e525")
+			(uuid "e2f9e650-bedf-4cff-806c-a9be2351e527")
 		)
 		(pin "3"
-			(uuid "0a0cb209-ca7b-4c84-a54d-9fd65b354a18")
+			(uuid "0a0cb209-ca7b-4c84-a54d-9fd65b354a1a")
 		)
 		(pin "8"
-			(uuid "1151da4f-7dd3-4f71-8eb2-fc60a93f90bf")
+			(uuid "1151da4f-7dd3-4f71-8eb2-fc60a93f90c1")
 		)
 		(pin "4"
-			(uuid "b9572d30-0086-4901-ab1d-2712be1ebab7")
+			(uuid "b9572d30-0086-4901-ab1d-2712be1ebab9")
 		)
 		(pin "5"
-			(uuid "d209e087-73c6-43c3-a0bd-28cad660e9f0")
+			(uuid "d209e087-73c6-43c3-a0bd-28cad660e9f2")
 		)
 		(pin "7"
-			(uuid "7ce5955b-11b7-4e72-bf3f-e9250b67b6c4")
+			(uuid "7ce5955b-11b7-4e72-bf3f-e9250b67b6c6")
 		)
 		(instances
 			(project ""
