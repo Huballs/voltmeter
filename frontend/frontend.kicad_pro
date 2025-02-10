@@ -236,9 +236,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "New_Library"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "frontend.kicad_pro",
