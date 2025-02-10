@@ -2307,6 +2307,12 @@
 		(uuid "873b3192-796e-42d6-b004-ea55958a53e9")
 	)
 	(junction
+		(at 52.07 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9beda40c-b857-4d45-b955-9cda2a8d9287")
+	)
+	(junction
 		(at 73.66 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2317,12 +2323,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5379075-b2ad-44c3-8b68-22c912df88b0")
-	)
-	(junction
-		(at 57.15 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7b3712f-0a3e-41b2-9457-241acbce1e5f")
 	)
 	(junction
 		(at 57.15 138.43)
@@ -2417,6 +2417,16 @@
 			(type default)
 		)
 		(uuid "0aa30bcb-5a4d-4ba1-87f2-e0b27ff9baaf")
+	)
+	(wire
+		(pts
+			(xy 176.53 121.92) (xy 171.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbaa9e1-180c-4057-b98b-d85ffcade92c")
 	)
 	(wire
 		(pts
@@ -2700,16 +2710,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 129.54) (xy 66.04 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7c4ec1-1d51-4bd0-a79e-16bb2d1dcd45")
-	)
-	(wire
-		(pts
 			(xy 57.15 50.8) (xy 73.66 50.8)
 		)
 		(stroke
@@ -2840,6 +2840,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 129.54) (xy 66.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c272201-cfeb-4723-9729-fc98f2a12cf0")
+	)
+	(wire
+		(pts
 			(xy 69.85 105.41) (xy 77.47 105.41)
 		)
 		(stroke
@@ -2960,6 +2970,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987dbf93-a804-459d-b888-c1377b748009")
+	)
+	(wire
+		(pts
 			(xy 57.15 129.54) (xy 57.15 138.43)
 		)
 		(stroke
@@ -2980,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 116.84) (xy 52.07 127)
+			(xy 52.07 116.84) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3100,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 125.73) (xy 52.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e1af28-d901-4552-8403-354552927a4d")
+	)
+	(wire
+		(pts
 			(xy 52.07 39.37) (xy 57.15 39.37)
 		)
 		(stroke
@@ -3117,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "b25d430b-9f02-4bea-8b7a-42259c3ee922")
+	)
+	(wire
+		(pts
+			(xy 176.53 124.46) (xy 171.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f06abb-13a3-40a9-980b-d58d38029b58")
 	)
 	(wire
 		(pts
@@ -4732,6 +4772,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 181.61 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a05c7cf-7c03-4b0a-a167-35fd68861ed1")
+		(property "Reference" "J5"
+			(at 182.88 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTC"
+			(at 182.88 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e29495b9-0e7b-4543-98e0-709a4b0aadb2")
+		)
+		(pin "2"
+			(uuid "48346aa9-e400-4a51-940c-9445b195275c")
+		)
+		(instances
+			(project "reference"
+				(path "/413c4dac-a581-44bc-aece-d6213456b61d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 48.26 31.75 90)
 		(unit 1)
@@ -4863,92 +4973,6 @@
 			(project "reference"
 				(path "/413c4dac-a581-44bc-aece-d6213456b61d"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:REF3212AMDBVREP")
-		(at 128.27 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6248cbc8-1991-431d-85ee-aaf0e32da51a")
-		(property "Reference" "U2"
-			(at 130.4641 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "REF3433IDBVR"
-			(at 130.4641 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-			(at 130.175 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf"
-			(at 128.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.25V 100μA Micropower Precision Voltage Reference, SOT-23-6"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7454ebad-c08b-43d1-8fc5-d68e199c57cc")
-		)
-		(pin "1"
-			(uuid "a91467f3-8764-4e80-a194-268eba03ceff")
-		)
-		(pin "2"
-			(uuid "d888656c-015f-4796-9185-de196819d978")
-		)
-		(pin "5"
-			(uuid "fef365e0-22bb-442f-ae34-913eb4331342")
-		)
-		(pin "6"
-			(uuid "0b5ab03e-084f-4762-a9a9-e90b2cf90a33")
-		)
-		(pin "4"
-			(uuid "637f6b2d-33cb-472e-bcdd-57280d89f78d")
-		)
-		(instances
-			(project ""
-				(path "/413c4dac-a581-44bc-aece-d6213456b61d"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5768,6 +5792,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 166.37 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34f155a-2045-4cc0-bed7-9c7d1e851fb4")
+		(property "Reference" "J4"
+			(at 167.005 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTC"
+			(at 167.005 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 166.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 166.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9852dfd-4945-4602-b0cb-d68a7dc962b1")
+		)
+		(pin "2"
+			(uuid "6b6780ae-2807-46b1-aabb-f5f6e3d03934")
+		)
+		(instances
+			(project "reference"
+				(path "/413c4dac-a581-44bc-aece-d6213456b61d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 166.37 63.5 90)
 		(unit 1)
@@ -6269,6 +6361,92 @@
 				(path "/413c4dac-a581-44bc-aece-d6213456b61d"
 					(reference "U3")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:REF3212AMDBVREP")
+		(at 128.27 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3782792-0e74-45f3-aa17-190a152432c8")
+		(property "Reference" "U4"
+			(at 130.4641 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF3433IDBVR"
+			(at 130.4641 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 130.175 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.25V 100μA Micropower Precision Voltage Reference, SOT-23-6"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c48fa649-9596-4920-94fb-2916aa5d5103")
+		)
+		(pin "1"
+			(uuid "8ac1aaff-370c-4176-8f10-ccf227e4d43a")
+		)
+		(pin "4"
+			(uuid "55abc0fd-3277-4a73-939f-5ab9bf073072")
+		)
+		(pin "2"
+			(uuid "a9a5dfc7-5022-4a67-af17-ec83bd8c5c72")
+		)
+		(pin "3"
+			(uuid "4d93c3b0-ca18-4aea-be92-8137da1fd4cc")
+		)
+		(pin "5"
+			(uuid "91017784-1914-44bd-b625-7d85dca64ff8")
+		)
+		(instances
+			(project ""
+				(path "/413c4dac-a581-44bc-aece-d6213456b61d"
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)

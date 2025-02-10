@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "New_Library"
+    ]
   },
   "meta": {
     "filename": "frontend.kicad_pro",
@@ -386,6 +388,10 @@
     [
       "ab777daf-a678-4c7c-8aaf-8ba908a1ed49",
       "Root"
+    ],
+    [
+      "3bd9bcdd-eb84-44eb-88c5-a95914037641",
+      "Power"
     ]
   ],
   "text_variables": {}
