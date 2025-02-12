@@ -2250,6 +2250,12 @@
 		(uuid "dbc5645b-7ee1-4f22-950b-cd1a4dace032")
 	)
 	(junction
+		(at 189.23 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea01b585-f9fb-45e6-a292-b691960dae2c")
+	)
+	(junction
 		(at 74.93 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3070,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "c55f57d1-8c3c-4d03-a065-b84aa28cff09")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6317c81-8e95-4cc4-bc5b-4d789d742189")
 	)
 	(wire
 		(pts
@@ -4603,6 +4619,72 @@
 			(project "frontend"
 				(path "/ab777daf-a678-4c7c-8aaf-8ba908a1ed49/3bd9bcdd-eb84-44eb-88c5-a95914037641"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 189.23 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5b5117-9e4f-4dd6-97cb-cfd5b3ad4c24")
+		(property "Reference" "#PWR0122"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V5"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c592fd8-d162-4a04-ad7a-c7753d45b9c2")
+		)
+		(instances
+			(project "frontend"
+				(path "/ab777daf-a678-4c7c-8aaf-8ba908a1ed49/3bd9bcdd-eb84-44eb-88c5-a95914037641"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
