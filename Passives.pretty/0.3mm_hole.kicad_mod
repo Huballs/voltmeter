@@ -1,0 +1,89 @@
+(footprint "0.3mm_hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -12.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "82703cec-bb60-4c42-9de2-7fac12ca6bfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0.3mm_hole"
+		(at 0.2 -11.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc9eab2d-2cf9-49a9-90b4-c96d68650f02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a217178d-c964-4823-865e-89ddee04794a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d550d3ae-1931-4b29-a786-525419e4beb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1febf7f2-a269-49d2-829c-79c515c34714")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 -9.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57c3e736-f67a-4081-85fb-e30661e61cc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.3 0.3)
+		(drill 0.3)
+		(layers "*.Mask")
+		(uuid "fbb6d8b8-6f90-4b85-8ade-e634ca2fe6c8")
+	)
+)
