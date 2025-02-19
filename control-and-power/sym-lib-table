@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "C:/Users/edashkevich/Documents/source/voltmeter/lib.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/edashkevich/Documents/source/voltmeter/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Passives")(type "KiCad")(uri "C:/Users/edashkevich/Documents/source/voltmeter/Passives.kicad_sym")(options "")(descr ""))
+)
