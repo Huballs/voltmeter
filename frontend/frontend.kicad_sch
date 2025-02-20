@@ -14251,6 +14251,25 @@
 		)
 		(uuid "ffa0bb4c-5663-4822-a123-ad03518291d0")
 	)
+	(text_box "+5V/-5V				mA\nMAX4208 		x1	2\nOPA2186DR		x2	0.2\nNRP26-A05D		x2	80\nLTC2508CDKD-32	x1	20\n					102"
+		(exclude_from_sim no)
+		(at 123.825 20.32 0)
+		(size 27.305 15.875)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9b5b8610-93e5-48c8-9822-84351cc6cff0")
+	)
 	(text "+3V3"
 		(exclude_from_sim no)
 		(at 291.338 172.212 0)
@@ -20133,7 +20152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-10V"
+		(property "Value" "-6V"
 			(at 328.422 176.276 0)
 			(effects
 				(font
@@ -23762,7 +23781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-10V"
+		(property "Value" "-6V"
 			(at 332.232 162.306 90)
 			(effects
 				(font
@@ -31438,7 +31457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-10V"
+		(property "Value" "-6V"
 			(at 301.498 162.306 90)
 			(effects
 				(font

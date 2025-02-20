@@ -76,7 +76,6 @@
         "silk_over_copper|187000000|109124000|408439b7-fb07-41f0-a4ce-b6957bdaa5ff|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|190500000|50876000|ac9b161c-e3d2-4ba9-ba3b-72c544bc7e76|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|196000000|47124000|b08b57c3-79bc-4223-bc52-46695e93f338|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|200000000|47124000|58f9f75a-4fb9-4190-be9a-763fa4587507|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|212980315|111943039|4e7d3a6f-9154-4129-8249-3caea8df82b4|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|220832000|86156800|882e6e66-c74d-4167-b50e-3e5dc50acff9|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|222652000|86156800|b1ca2e9c-db31-489b-91f5-d6fe50d6bb50|00000000-0000-0000-0000-000000000000",
@@ -86,7 +85,7 @@
         "starved_thermal|229743000|73638500|2c3c6b88-2db1-4c8f-a80e-c33900175dd9|95b16196-cec5-44c2-8b64-b80aa5e3cff2|F.Cu",
         "text_height|222326200|76657200|96736a21-a20e-4aff-9308-17a47b11b434|00000000-0000-0000-0000-000000000000",
         "unconnected_items|201988747|47072489|5bb5ca6f-949e-45d3-8479-eefabde65115|70a23d23-f88f-48f4-ab21-199b9dab690d",
-        "unconnected_items|212388900|51000000|b59f8795-7082-46a9-9cd4-fcce6586c84f|2c3c6b88-2db1-4c8f-a80e-c33900175dd9"
+        "unconnected_items|207509310|50682347|5bb5ca6f-949e-45d3-8479-eefabde65115|559c2152-930e-4125-b40f-56239663ff6d"
       ],
       "meta": {
         "version": 2
@@ -585,11 +584,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
