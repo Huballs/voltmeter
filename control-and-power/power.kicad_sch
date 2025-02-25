@@ -4348,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 182.88 106.68)
+			(xy 176.53 106.68) (xy 186.69 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5198,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 182.88 104.14)
+			(xy 176.53 104.14) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5427,7 +5427,7 @@
 		(uuid "08304c26-bddb-4e53-8dab-0e2cd27559c8")
 	)
 	(label "GND_REF"
-		(at 172.72 106.68 0)
+		(at 176.53 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5577,7 +5577,7 @@
 		(uuid "6011e6ea-d1d2-4ea3-bf8e-01e3bc91cdc4")
 	)
 	(label "+15V-REF"
-		(at 172.72 104.14 0)
+		(at 176.53 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8907,7 +8907,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 187.96 106.68 180)
+		(at 191.77 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8916,7 +8916,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc122faa-b057-4b60-be48-8e32530752c5")
 		(property "Reference" "J7"
-			(at 189.23 104.1399 0)
+			(at 193.04 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8925,7 @@
 			)
 		)
 		(property "Value" "RefPower"
-			(at 189.23 106.6799 0)
+			(at 193.04 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +8934,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 187.96 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +8943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8952,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 187.96 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
