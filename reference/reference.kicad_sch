@@ -3438,6 +3438,16 @@
 		)
 		(uuid "ff4e9aa1-5ac4-417c-aef0-431c398c188a")
 	)
+	(text "pin 1 and 2 of tl431 need to be swapped"
+		(exclude_from_sim no)
+		(at 56.388 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8235a8fb-667e-472e-91c9-ba906368c619")
+	)
 	(text "820 at 68 deg"
 		(exclude_from_sim no)
 		(at 49.53 132.842 0)
@@ -5462,7 +5472,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a40ad6f8-9e21-4e04-b365-c82ec0ba6f95")
 		(property "Reference" "C11"
 			(at 64.008 109.728 0)
